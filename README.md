@@ -1,6 +1,6 @@
 # CineScope
 
-A **movie recommendation and ticket booking system using Neo4j**, extending the DA1/DA2 Movie Booking Management System. Built independently with FoodBridge as an interface and workflow reference.
+A **movie recommendation and ticket booking system using Neo4j**
 
 **Live project:** [Open CineScope](https://cinescope-movies-dk28.netlify.app). Choose a sample profile on the sign-in screen or create a synthetic classroom account.
 
