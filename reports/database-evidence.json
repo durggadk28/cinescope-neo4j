@@ -1,0 +1,479 @@
+{
+  "capturedAt": "2026-10-14T07:52:36.798Z",
+  "version": [
+    {
+      "name": "Neo4j Kernel",
+      "versions": [
+        "2026.09.0"
+      ],
+      "edition": "enterprise"
+    },
+    {
+      "name": "Cypher",
+      "versions": [
+        "5",
+        "25"
+      ],
+      "edition": ""
+    }
+  ],
+  "counts": [
+    {
+      "label": "Booking",
+      "count": 3
+    },
+    {
+      "label": "Genre",
+      "count": 10
+    },
+    {
+      "label": "Language",
+      "count": 4
+    },
+    {
+      "label": "Movie",
+      "count": 18
+    },
+    {
+      "label": "Screen",
+      "count": 3
+    },
+    {
+      "label": "Seat",
+      "count": 144
+    },
+    {
+      "label": "Show",
+      "count": 12
+    },
+    {
+      "label": "Theatre",
+      "count": 2
+    },
+    {
+      "label": "User",
+      "count": 4
+    }
+  ],
+  "relationships": [
+    {
+      "type": "BOOKED",
+      "count": 3
+    },
+    {
+      "type": "BOOKED_SEAT",
+      "count": 4
+    },
+    {
+      "type": "FOR_SHOW",
+      "count": 3
+    },
+    {
+      "type": "HAS_SCREEN",
+      "count": 3
+    },
+    {
+      "type": "HAS_SEAT",
+      "count": 144
+    },
+    {
+      "type": "IN_GENRE",
+      "count": 36
+    },
+    {
+      "type": "IN_LANGUAGE",
+      "count": 18
+    },
+    {
+      "type": "RATED",
+      "count": 11
+    },
+    {
+      "type": "SAVED",
+      "count": 1
+    },
+    {
+      "type": "SCREENING_OF",
+      "count": 12
+    },
+    {
+      "type": "USES_SCREEN",
+      "count": 12
+    }
+  ],
+  "constraints": [
+    {
+      "name": "cinescope_email",
+      "type": "NODE_PROPERTY_UNIQUENESS",
+      "labelsOrTypes": [
+        "CineAccount"
+      ],
+      "properties": [
+        "email"
+      ]
+    },
+    {
+      "name": "cinescope_id",
+      "type": "NODE_PROPERTY_UNIQUENESS",
+      "labelsOrTypes": [
+        "CineScope"
+      ],
+      "properties": [
+        "id"
+      ]
+    },
+    {
+      "name": "cinescope_session",
+      "type": "NODE_PROPERTY_UNIQUENESS",
+      "labelsOrTypes": [
+        "CineSession"
+      ],
+      "properties": [
+        "tokenHash"
+      ]
+    }
+  ],
+  "arunRecommendations": [
+    {
+      "movie": {
+        "genres": [
+          "Sci-Fi",
+          "Drama"
+        ],
+        "language": "English",
+        "duration": 144,
+        "art": "desert",
+        "color": "#e49a73",
+        "year": 2015,
+        "director": "Ridley Scott",
+        "rating": 8,
+        "description": "An astronaut stranded on Mars uses science, ingenuity, and hope to find a way home.",
+        "tagline": "Every day is a new frontier",
+        "id": "CS-M105",
+        "title": "The Martian"
+      },
+      "matchingGenres": [
+        "Sci-Fi",
+        "Drama"
+      ],
+      "relatedFilms": 2,
+      "similarViewers": 1,
+      "genrePoints": 36,
+      "peerPoints": 10,
+      "qualityPoints": 8,
+      "score": 54
+    },
+    {
+      "movie": {
+        "genres": [
+          "Sci-Fi",
+          "Drama"
+        ],
+        "language": "English",
+        "duration": 116,
+        "art": "orbit",
+        "color": "#afb6a4",
+        "year": 2016,
+        "director": "Denis Villeneuve",
+        "rating": 7.9,
+        "description": "A linguist tries to communicate with mysterious visitors and discovers a different view of time.",
+        "tagline": "Understanding changes everything",
+        "id": "CS-M107",
+        "title": "Arrival"
+      },
+      "matchingGenres": [
+        "Sci-Fi",
+        "Drama"
+      ],
+      "relatedFilms": 2,
+      "similarViewers": 1,
+      "genrePoints": 36,
+      "peerPoints": 10,
+      "qualityPoints": 7.9,
+      "score": 53.9
+    },
+    {
+      "movie": {
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "duration": 164,
+        "art": "city",
+        "color": "#d79d63",
+        "year": 2017,
+        "director": "Denis Villeneuve",
+        "rating": 8,
+        "description": "An investigator follows a buried secret through a future city shaped by artificial life.",
+        "tagline": "Find what makes us human",
+        "id": "CS-M108",
+        "title": "Blade Runner 2049"
+      },
+      "matchingGenres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "relatedFilms": 2,
+      "similarViewers": 0,
+      "genrePoints": 36,
+      "peerPoints": 0,
+      "qualityPoints": 8,
+      "score": 44
+    },
+    {
+      "movie": {
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "Tamil",
+        "duration": 176,
+        "art": "rings",
+        "color": "#b7a7d8",
+        "year": 2019,
+        "director": "Thiagarajan Kumararaja",
+        "rating": 8.2,
+        "description": "Several unusual lives intersect through choices, coincidence, and difficult truths.",
+        "tagline": "Lives cross in unexpected ways",
+        "id": "CS-M115",
+        "title": "Super Deluxe"
+      },
+      "matchingGenres": [
+        "Drama",
+        "Thriller"
+      ],
+      "relatedFilms": 2,
+      "similarViewers": 0,
+      "genrePoints": 24,
+      "peerPoints": 0,
+      "qualityPoints": 8.2,
+      "score": 32.2
+    },
+    {
+      "movie": {
+        "genres": [
+          "Sci-Fi",
+          "Adventure"
+        ],
+        "language": "English",
+        "duration": 162,
+        "art": "forest",
+        "color": "#68c7be",
+        "year": 2009,
+        "director": "James Cameron",
+        "rating": 8,
+        "description": "On a richly connected alien world, a visitor must choose where his loyalties belong.",
+        "tagline": "A world worth discovering",
+        "id": "CS-M103",
+        "title": "Avatar"
+      },
+      "matchingGenres": [
+        "Sci-Fi"
+      ],
+      "relatedFilms": 2,
+      "similarViewers": 0,
+      "genrePoints": 24,
+      "peerPoints": 0,
+      "qualityPoints": 8,
+      "score": 32
+    },
+    {
+      "movie": {
+        "genres": [
+          "Sci-Fi",
+          "Adventure"
+        ],
+        "language": "English",
+        "duration": 155,
+        "art": "desert",
+        "color": "#d7b87d",
+        "year": 2021,
+        "director": "Denis Villeneuve",
+        "rating": 8,
+        "description": "A young heir travels to a desert planet where political power and a precious resource intertwine.",
+        "tagline": "The future is written in sand",
+        "id": "CS-M106",
+        "title": "Dune"
+      },
+      "matchingGenres": [
+        "Sci-Fi"
+      ],
+      "relatedFilms": 2,
+      "similarViewers": 0,
+      "genrePoints": 24,
+      "peerPoints": 0,
+      "qualityPoints": 8,
+      "score": 32
+    },
+    {
+      "movie": {
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Tamil",
+        "duration": 158,
+        "art": "forest",
+        "color": "#d0bd88",
+        "year": 2018,
+        "director": "C. Prem Kumar",
+        "rating": 8.5,
+        "description": "A school reunion reconnects two former classmates with a shared, unfinished past.",
+        "tagline": "The memories we keep",
+        "id": "CS-M114",
+        "title": "96"
+      },
+      "matchingGenres": [
+        "Drama"
+      ],
+      "relatedFilms": 1,
+      "similarViewers": 0,
+      "genrePoints": 12,
+      "peerPoints": 0,
+      "qualityPoints": 8.5,
+      "score": 20.5
+    },
+    {
+      "movie": {
+        "genres": [
+          "Drama",
+          "Music"
+        ],
+        "language": "English",
+        "duration": 106,
+        "art": "rings",
+        "color": "#e0b15c",
+        "year": 2014,
+        "director": "Damien Chazelle",
+        "rating": 8.5,
+        "description": "An ambitious drummer is pushed to his limits by an exacting music instructor.",
+        "tagline": "Find your own rhythm",
+        "id": "CS-M111",
+        "title": "Whiplash"
+      },
+      "matchingGenres": [
+        "Drama"
+      ],
+      "relatedFilms": 1,
+      "similarViewers": 0,
+      "genrePoints": 12,
+      "peerPoints": 0,
+      "qualityPoints": 8.5,
+      "score": 20.5
+    },
+    {
+      "movie": {
+        "genres": [
+          "Drama",
+          "Comedy"
+        ],
+        "language": "Hindi",
+        "duration": 170,
+        "art": "forest",
+        "color": "#d8c176",
+        "year": 2009,
+        "director": "Rajkumar Hirani",
+        "rating": 8.4,
+        "description": "Three friends question the pressures of education and search for a meaningful direction.",
+        "tagline": "Follow your curiosity",
+        "id": "CS-M116",
+        "title": "3 Idiots"
+      },
+      "matchingGenres": [
+        "Drama"
+      ],
+      "relatedFilms": 1,
+      "similarViewers": 0,
+      "genrePoints": 12,
+      "peerPoints": 0,
+      "qualityPoints": 8.4,
+      "score": 20.4
+    },
+    {
+      "movie": {
+        "genres": [
+          "Thriller",
+          "Action"
+        ],
+        "language": "Tamil",
+        "duration": 175,
+        "art": "city",
+        "color": "#d88778",
+        "year": 2022,
+        "director": "Lokesh Kanagaraj",
+        "rating": 8.3,
+        "description": "An investigator follows a series of killings that reveal a wider criminal network.",
+        "tagline": "Every clue leads somewhere",
+        "id": "CS-M113",
+        "title": "Vikram"
+      },
+      "matchingGenres": [
+        "Thriller"
+      ],
+      "relatedFilms": 1,
+      "similarViewers": 0,
+      "genrePoints": 12,
+      "peerPoints": 0,
+      "qualityPoints": 8.3,
+      "score": 20.3
+    },
+    {
+      "movie": {
+        "genres": [
+          "Thriller",
+          "Crime"
+        ],
+        "language": "Hindi",
+        "duration": 139,
+        "art": "rings",
+        "color": "#e3ac69",
+        "year": 2018,
+        "director": "Sriram Raghavan",
+        "rating": 8.2,
+        "description": "A pianist becomes caught in a crime where every new detail shifts what can be believed.",
+        "tagline": "Look a little closer",
+        "id": "CS-M117",
+        "title": "Andhadhun"
+      },
+      "matchingGenres": [
+        "Thriller"
+      ],
+      "relatedFilms": 1,
+      "similarViewers": 0,
+      "genrePoints": 12,
+      "peerPoints": 0,
+      "qualityPoints": 8.2,
+      "score": 20.2
+    },
+    {
+      "movie": {
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "duration": 194,
+        "art": "ocean",
+        "color": "#9bbbd8",
+        "year": 1997,
+        "director": "James Cameron",
+        "rating": 7.9,
+        "description": "Two passengers from different worlds form a bond during an ill-fated ocean crossing.",
+        "tagline": "Some stories stay with you",
+        "id": "CS-M109",
+        "title": "Titanic"
+      },
+      "matchingGenres": [
+        "Drama"
+      ],
+      "relatedFilms": 1,
+      "similarViewers": 0,
+      "genrePoints": 12,
+      "peerPoints": 0,
+      "qualityPoints": 7.9,
+      "score": 19.9
+    }
+  ],
+  "interstellarAvailableSeats": 46
+}

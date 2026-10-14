@@ -1,0 +1,83 @@
+{
+  "verifiedAt": "2026-10-14T07:51:04.747Z",
+  "checks": [
+    {
+      "name": "Neo4j is connected",
+      "passed": true
+    },
+    {
+      "name": "Sample import is idempotent",
+      "passed": true
+    },
+    {
+      "name": "Registration and persisted password hashes",
+      "passed": true
+    },
+    {
+      "name": "All workspace reads and CSV export succeed",
+      "passed": true
+    },
+    {
+      "name": "Anonymous API access is rejected",
+      "passed": true
+    },
+    {
+      "name": "Movie catalogue reads from Neo4j",
+      "passed": true
+    },
+    {
+      "name": "Rating create update and delete persist",
+      "passed": true
+    },
+    {
+      "name": "Watchlists stay private and can be removed",
+      "passed": true
+    },
+    {
+      "name": "Recommendations exclude rated films and provide reasons",
+      "passed": true
+    },
+    {
+      "name": "Concurrent requests cannot double-book one seat",
+      "passed": true
+    },
+    {
+      "name": "Users cannot cancel another account booking",
+      "passed": true
+    },
+    {
+      "name": "Duplicate and wrong-screen seats are rejected",
+      "passed": true
+    },
+    {
+      "name": "Cancellation releases seats and retains history",
+      "passed": true
+    },
+    {
+      "name": "Booking rejects a show that has started",
+      "passed": true
+    },
+    {
+      "name": "Graph responses do not expose private account fields",
+      "passed": true
+    },
+    {
+      "name": "Every curated Cypher query executes",
+      "passed": true
+    },
+    {
+      "name": "Arbitrary Cypher is not accepted as a studio action",
+      "passed": true
+    },
+    {
+      "name": "Cross-origin writes are rejected",
+      "passed": true
+    },
+    {
+      "name": "Session revocation prevents further access",
+      "passed": true
+    }
+  ],
+  "passed": 19,
+  "failed": null
+}

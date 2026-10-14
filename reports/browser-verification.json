@@ -1,0 +1,29 @@
+{
+  "verifiedAt": "2026-10-14T08:05:41.924Z",
+  "desktop": {
+    "width": 1440,
+    "height": 1000
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "tamilFilmCount": 3
+  },
+  "checked": [
+    "sample sign-in",
+    "catalogue",
+    "language filter",
+    "recommendations",
+    "movie details",
+    "future screenings",
+    "seat selection",
+    "booking commit",
+    "ticket history",
+    "booking cancellation",
+    "graph controls",
+    "query results",
+    "committed Cypher playback"
+  ],
+  "temporaryBookingRemoved": true
+}

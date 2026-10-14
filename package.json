@@ -1,0 +1,21 @@
+{
+  "name": "cinescope-neo4j",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DA3 graph based movie recommendation and ticket booking system",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test tests/*.test.js",
+    "test:integration": "node scripts/verify-live.js"
+  },
+  "dependencies": {
+    "neo4j-driver": "^6.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.12.0"
+  }
+}
