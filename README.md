@@ -4,7 +4,7 @@ A **movie recommendation and ticket booking system using Neo4j**, extending the 
 
 **Live project:** [Open CineScope](https://cinescope-movies-dk28.netlify.app). Choose a sample profile on the sign-in screen or create a synthetic classroom account.
 
-**Source repository:** [durggadk28/cinescope-neo4j](https://github.com/durggadk28/cinescope-neo4j) (private).
+**Source repository:** [durggadk28/cinescope-neo4j](https://github.com/durggadk28/cinescope-neo4j) (public).
 
 Netlify serves the frontend and serverless API; Neo4j Aura stores the hosted data. The site works independently of this laptop. See [deployment configuration](docs/NETLIFY_DEPLOYMENT.md). The desktop launcher remains available, using its separate local database.
 
